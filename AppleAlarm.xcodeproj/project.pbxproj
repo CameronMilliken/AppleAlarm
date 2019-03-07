@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4A6CF852231C39100D98F00 /* Timer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A6CF842231C39100D98F00 /* Timer.storyboard */; };
 		B4CDEEBD22318ABD00C97DB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CDEEBC22318ABD00C97DB9 /* AppDelegate.swift */; };
 		B4CDEEC222318ABD00C97DB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4CDEEC022318ABD00C97DB9 /* Main.storyboard */; };
 		B4CDEEC422318ABE00C97DB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4CDEEC322318ABE00C97DB9 /* Assets.xcassets */; };
@@ -15,10 +16,11 @@
 		B4CDEED22231950400C97DB9 /* Alarm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4CDEED12231950400C97DB9 /* Alarm.storyboard */; };
 		B4CDEED6223195F000C97DB9 /* Bedtime.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4CDEED4223195F000C97DB9 /* Bedtime.storyboard */; };
 		B4CDEED8223196B700C97DB9 /* Stopwatch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4CDEED7223196B700C97DB9 /* Stopwatch.storyboard */; };
-		B4CDEEDB223196E700C97DB9 /* Timer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4CDEED9223196E700C97DB9 /* Timer.storyboard */; };
+		CE1ECA902231DA1800AEEBA3 /* AnimationCircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1ECA8F2231DA1800AEEBA3 /* AnimationCircleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B4A6CF842231C39100D98F00 /* Timer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Timer.storyboard; sourceTree = "<group>"; };
 		B4CDEEB922318ABD00C97DB9 /* AppleAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4CDEEBC22318ABD00C97DB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4CDEEC122318ABD00C97DB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,7 +31,7 @@
 		B4CDEED12231950400C97DB9 /* Alarm.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Alarm.storyboard; sourceTree = "<group>"; };
 		B4CDEED5223195F000C97DB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = AppleAlarm/Base.lproj/Bedtime.storyboard; sourceTree = "<group>"; };
 		B4CDEED7223196B700C97DB9 /* Stopwatch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Stopwatch.storyboard; sourceTree = "<group>"; };
-		B4CDEEDA223196E700C97DB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = AppleAlarm/Base.lproj/Timer.storyboard; sourceTree = "<group>"; };
+		CE1ECA8F2231DA1800AEEBA3 /* AnimationCircleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationCircleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +48,6 @@
 		B4CDEEB022318ABD00C97DB9 = {
 			isa = PBXGroup;
 			children = (
-				B4CDEED9223196E700C97DB9 /* Timer.storyboard */,
 				B4CDEEBB22318ABD00C97DB9 /* AppleAlarm */,
 				B4CDEEBA22318ABD00C97DB9 /* Products */,
 			);
@@ -68,6 +69,8 @@
 				B4CDEED12231950400C97DB9 /* Alarm.storyboard */,
 				B4CDEED4223195F000C97DB9 /* Bedtime.storyboard */,
 				B4CDEED7223196B700C97DB9 /* Stopwatch.storyboard */,
+				B4A6CF842231C39100D98F00 /* Timer.storyboard */,
+				CE1ECA912231DA2F00AEEBA3 /* ViewControllers */,
 				B4CDEED3223195C000C97DB9 /* Resources */,
 			);
 			path = AppleAlarm;
@@ -82,6 +85,14 @@
 				B4CDEEC822318ABE00C97DB9 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE1ECA912231DA2F00AEEBA3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE1ECA8F2231DA1800AEEBA3 /* AnimationCircleViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,10 +153,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4CDEEDB223196E700C97DB9 /* Timer.storyboard in Resources */,
 				B4CDEED8223196B700C97DB9 /* Stopwatch.storyboard in Resources */,
 				B4CDEED0223194E500C97DB9 /* WorldClock.storyboard in Resources */,
 				B4CDEEC722318ABE00C97DB9 /* LaunchScreen.storyboard in Resources */,
+				B4A6CF852231C39100D98F00 /* Timer.storyboard in Resources */,
 				B4CDEEC422318ABE00C97DB9 /* Assets.xcassets in Resources */,
 				B4CDEED22231950400C97DB9 /* Alarm.storyboard in Resources */,
 				B4CDEEC222318ABD00C97DB9 /* Main.storyboard in Resources */,
@@ -161,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4CDEEBD22318ABD00C97DB9 /* AppDelegate.swift in Sources */,
+				CE1ECA902231DA1800AEEBA3 /* AnimationCircleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,14 +209,6 @@
 				B4CDEED5223195F000C97DB9 /* Base */,
 			);
 			name = Bedtime.storyboard;
-			sourceTree = "<group>";
-		};
-		B4CDEED9223196E700C97DB9 /* Timer.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B4CDEEDA223196E700C97DB9 /* Base */,
-			);
-			name = Timer.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
