@@ -39,7 +39,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OhM-WO-wh8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="126" y="-432"/>
+            <point key="canvasLocation" x="533" y="-586"/>
         </scene>
         <!--Alarm-->
         <scene sceneID="6eQ-W7-id0">
@@ -49,7 +49,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l5I-5w-KZo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="502" y="-151"/>
+            <point key="canvasLocation" x="786" y="-509"/>
         </scene>
         <!--Bedtime-->
         <scene sceneID="oiu-iQ-y34">
@@ -59,7 +59,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s0U-bm-bwv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="474" y="362"/>
+            <point key="canvasLocation" x="1044" y="-192"/>
         </scene>
         <!--Stopwatch-->
         <scene sceneID="Cyj-hx-dKy">
@@ -79,7 +79,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="elS-KI-8GI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1057" y="-394"/>
+            <point key="canvasLocation" x="874" y="156"/>
         </scene>
         <!--Timer-->
         <scene sceneID="8kx-bG-ZEQ">
