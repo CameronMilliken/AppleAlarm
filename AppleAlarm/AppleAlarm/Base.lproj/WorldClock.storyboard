@@ -26,6 +26,7 @@
                                     <rightBarButtonItems>
                                         <barButtonItem systemItem="trash" id="ERd-kZ-hlQ"/>
                                         <barButtonItem title="Item" id="xHT-f1-vNq"/>
+                                        <barButtonItem title="Item" id="QBx-b6-lAf"/>
                                     </rightBarButtonItems>
                                 </navigationItem>
                             </items>
