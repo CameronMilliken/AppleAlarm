@@ -23,7 +23,7 @@
                             <items>
                                 <navigationItem title="World Clock" id="vhW-rn-bnl">
                                     <barButtonItem key="leftBarButtonItem" systemItem="edit" id="YSq-dT-vSS"/>
-                                    <barButtonItem key="rightBarButtonItem" systemItem="trash" id="ERd-kZ-hlQ"/>
+                                    <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="ERd-kZ-hlQ"/>
                                 </navigationItem>
                             </items>
                         </navigationBar>
