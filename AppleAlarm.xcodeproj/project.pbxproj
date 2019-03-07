@@ -46,6 +46,9 @@
 		B4CDEEB022318ABD00C97DB9 = {
 			isa = PBXGroup;
 			children = (
+
+				B4CDEED9223196E700C97DB9 /* Timer.storyboard */,
+
 				B4CDEEBB22318ABD00C97DB9 /* AppleAlarm */,
 				B4CDEEBA22318ABD00C97DB9 /* Products */,
 			);
@@ -65,6 +68,7 @@
 				B4CDEEC022318ABD00C97DB9 /* Main.storyboard */,
 				B4CDEECE223194E500C97DB9 /* WorldClock.storyboard */,
 				B4CDEED12231950400C97DB9 /* Alarm.storyboard */,
+				B4A6CF842231C39100D98F00 /* Timer.storyboard */,
 				B4CDEED4223195F000C97DB9 /* Bedtime.storyboard */,
 				B4CDEED7223196B700C97DB9 /* Stopwatch.storyboard */,
 				B4A6CF842231C39100D98F00 /* Timer.storyboard */,
