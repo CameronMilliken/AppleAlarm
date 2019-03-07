@@ -16,7 +16,6 @@
 		B4CDEED22231950400C97DB9 /* Alarm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4CDEED12231950400C97DB9 /* Alarm.storyboard */; };
 		B4CDEED6223195F000C97DB9 /* Bedtime.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4CDEED4223195F000C97DB9 /* Bedtime.storyboard */; };
 		B4CDEED8223196B700C97DB9 /* Stopwatch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4CDEED7223196B700C97DB9 /* Stopwatch.storyboard */; };
-		B4CDEEDB223196E700C97DB9 /* Timer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4CDEED9223196E700C97DB9 /* Timer.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +30,6 @@
 		B4CDEED12231950400C97DB9 /* Alarm.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Alarm.storyboard; sourceTree = "<group>"; };
 		B4CDEED5223195F000C97DB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = AppleAlarm/Base.lproj/Bedtime.storyboard; sourceTree = "<group>"; };
 		B4CDEED7223196B700C97DB9 /* Stopwatch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Stopwatch.storyboard; sourceTree = "<group>"; };
-		B4CDEEDA223196E700C97DB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = AppleAlarm/Base.lproj/Timer.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +46,9 @@
 		B4CDEEB022318ABD00C97DB9 = {
 			isa = PBXGroup;
 			children = (
+
 				B4CDEED9223196E700C97DB9 /* Timer.storyboard */,
+
 				B4CDEEBB22318ABD00C97DB9 /* AppleAlarm */,
 				B4CDEEBA22318ABD00C97DB9 /* Products */,
 			);
@@ -71,6 +71,7 @@
 				B4A6CF842231C39100D98F00 /* Timer.storyboard */,
 				B4CDEED4223195F000C97DB9 /* Bedtime.storyboard */,
 				B4CDEED7223196B700C97DB9 /* Stopwatch.storyboard */,
+				B4A6CF842231C39100D98F00 /* Timer.storyboard */,
 				B4CDEED3223195C000C97DB9 /* Resources */,
 			);
 			path = AppleAlarm;
@@ -145,7 +146,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4CDEEDB223196E700C97DB9 /* Timer.storyboard in Resources */,
 				B4CDEED8223196B700C97DB9 /* Stopwatch.storyboard in Resources */,
 				B4CDEED0223194E500C97DB9 /* WorldClock.storyboard in Resources */,
 				B4CDEEC722318ABE00C97DB9 /* LaunchScreen.storyboard in Resources */,
@@ -201,14 +201,6 @@
 				B4CDEED5223195F000C97DB9 /* Base */,
 			);
 			name = Bedtime.storyboard;
-			sourceTree = "<group>";
-		};
-		B4CDEED9223196E700C97DB9 /* Timer.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B4CDEEDA223196E700C97DB9 /* Base */,
-			);
-			name = Timer.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
