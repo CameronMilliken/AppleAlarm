@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4A6CF852231C39100D98F00 /* Timer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A6CF842231C39100D98F00 /* Timer.storyboard */; };
 		B4CDEEBD22318ABD00C97DB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CDEEBC22318ABD00C97DB9 /* AppDelegate.swift */; };
 		B4CDEEC222318ABD00C97DB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4CDEEC022318ABD00C97DB9 /* Main.storyboard */; };
 		B4CDEEC422318ABE00C97DB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4CDEEC322318ABE00C97DB9 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B4A6CF842231C39100D98F00 /* Timer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Timer.storyboard; sourceTree = "<group>"; };
 		B4CDEEB922318ABD00C97DB9 /* AppleAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4CDEEBC22318ABD00C97DB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4CDEEC122318ABD00C97DB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,6 +48,7 @@
 		B4CDEEB022318ABD00C97DB9 = {
 			isa = PBXGroup;
 			children = (
+				B4A6CF842231C39100D98F00 /* Timer.storyboard */,
 				B4CDEED9223196E700C97DB9 /* Timer.storyboard */,
 				B4CDEEBB22318ABD00C97DB9 /* AppleAlarm */,
 				B4CDEEBA22318ABD00C97DB9 /* Products */,
@@ -146,6 +149,7 @@
 				B4CDEED8223196B700C97DB9 /* Stopwatch.storyboard in Resources */,
 				B4CDEED0223194E500C97DB9 /* WorldClock.storyboard in Resources */,
 				B4CDEEC722318ABE00C97DB9 /* LaunchScreen.storyboard in Resources */,
+				B4A6CF852231C39100D98F00 /* Timer.storyboard in Resources */,
 				B4CDEEC422318ABE00C97DB9 /* Assets.xcassets in Resources */,
 				B4CDEED22231950400C97DB9 /* Alarm.storyboard in Resources */,
 				B4CDEEC222318ABD00C97DB9 /* Main.storyboard in Resources */,
