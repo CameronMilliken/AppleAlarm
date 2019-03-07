@@ -23,7 +23,11 @@
                             <items>
                                 <navigationItem title="World Clock" id="vhW-rn-bnl">
                                     <barButtonItem key="leftBarButtonItem" systemItem="edit" id="YSq-dT-vSS"/>
-                                    <barButtonItem key="rightBarButtonItem" systemItem="trash" id="ERd-kZ-hlQ"/>
+                                    <rightBarButtonItems>
+                                        <barButtonItem systemItem="trash" id="ERd-kZ-hlQ"/>
+                                        <barButtonItem title="Item" id="xHT-f1-vNq"/>
+                                        <barButtonItem title="Item" id="QBx-b6-lAf"/>
+                                    </rightBarButtonItems>
                                 </navigationItem>
                             </items>
                         </navigationBar>
@@ -39,10 +43,10 @@
                                             <rect key="frame" x="16" y="11" width="343" height="83"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="PoI-rt-v29">
-                                                    <rect key="frame" x="0.0" y="13.5" width="133" height="56"/>
+                                                    <rect key="frame" x="0.0" y="13.5" width="73" height="56"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(timeDifference)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rEA-HB-5ON">
-                                                            <rect key="frame" x="0.0" y="0.0" width="125" height="20.5"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="73" height="20.5"/>
                                                             <color key="backgroundColor" red="0.0" green="0.56031829119999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -57,8 +61,14 @@
                                                         </label>
                                                     </subviews>
                                                 </stackView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(currentTime)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ref-aa-hIO">
-                                                    <rect key="frame" x="238" y="31.5" width="105" height="20.5"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x3x-za-jSw">
+                                                    <rect key="frame" x="178" y="31.5" width="0.0" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="(currentTime)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ref-aa-hIO">
+                                                    <rect key="frame" x="283" y="31.5" width="60" height="20.5"/>
                                                     <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
