@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,8 +23,7 @@
                         <segue destination="Cjz-cF-rgk" kind="relationship" relationship="viewControllers" id="6cK-V1-ng1"/>
                         <segue destination="KdD-5x-2MI" kind="relationship" relationship="viewControllers" id="8jG-JR-axR"/>
                         <segue destination="3QG-bK-nwV" kind="relationship" relationship="viewControllers" id="9jf-gy-a6o"/>
-                        <segue destination="AOh-OY-lgq" kind="relationship" relationship="viewControllers" id="Vtm-L7-AkM"/>
-                        <segue destination="zPS-rd-gRH" kind="relationship" relationship="viewControllers" id="ZPQ-zu-BF6"/>
+                        <segue destination="Uzm-eU-zbo" kind="relationship" relationship="viewControllers" id="Vtm-L7-AkM"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9aU-Ii-VY2" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -39,6 +39,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OhM-WO-wh8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="398" y="-397"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="lIP-xB-aRW">
+            <objects>
+                <viewController id="Uzm-eU-zbo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jca-cN-Jxw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="a1V-KS-3bM"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="ZZk-RO-niS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PQa-yr-sVB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="993" y="-44"/>
         </scene>
         <!--Alarm-->
         <scene sceneID="6eQ-W7-id0">
@@ -59,26 +75,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s0U-bm-bwv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="474" y="362"/>
-        </scene>
-        <!--Stopwatch-->
-        <scene sceneID="Cyj-hx-dKy">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Stopwatch" id="AOh-OY-lgq" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="A0w-Gj-Slg"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="A8r-sP-37z" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="993" y="-44"/>
-        </scene>
-        <!--Timer-->
-        <scene sceneID="u0K-sE-7MI">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Timer" id="zPS-rd-gRH" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="oxG-3n-AIi"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="elS-KI-8GI" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1057" y="-394"/>
         </scene>
     </scenes>
 </document>
