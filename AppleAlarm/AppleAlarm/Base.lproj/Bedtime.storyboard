@@ -59,6 +59,7 @@
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" red="0.3100803312" green="1" blue="0.2481998728" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
